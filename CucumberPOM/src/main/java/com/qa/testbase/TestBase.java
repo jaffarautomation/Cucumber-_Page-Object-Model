@@ -29,7 +29,7 @@ public class TestBase {
 	{
 		
          prop =new Properties();
-	    FileInputStream file = new FileInputStream("C:\\Users\\ADMIN\\eclipse-workspace1\\CucumberPOM\\src\\main\\java\\com\\qa\\config\\config.properties");
+	    FileInputStream file = new FileInputStream("F:\\Selenium all\\Cucumber\\Git repository workspace cucumber POM\\CucumberPOM\\src\\main\\java\\com\\qa\\config\\config.properties");
 		prop.load(file);
 	}
 	

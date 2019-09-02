@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Amazon Home page Test",
+        "description": "",
+        "id": "amazon-application-test;validate-amazon-home-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18732208700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open the browser",
+            "match": {
+              "location": "HomePage_StepDefinitionFile.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18427800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user validate login page title",
+            "match": {
+              "location": "HomePage_StepDefinitionFile.user_validate_login_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67172646300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter username and password",
+            "match": {
+              "location": "HomePage_StepDefinitionFile.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 152023200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User validate username on home page",
+            "match": {
+              "location": "HomePage_StepDefinitionFile.user_validate_username_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon application Test",
+    "description": "",
+    "id": "amazon-application-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/ADMIN/eclipse-workspace1/CucumberPOM/src/main/java/com/qa/feature/amazon.feature"
+  }
+]

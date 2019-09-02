@@ -38,16 +38,28 @@ formatter.match({
   "location": "HomePage_StepDefinitionFile.user_open_the_browser()"
 });
 formatter.result({
-  "duration": 16345753900,
+  "duration": 18732208700,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePage_StepDefinitionFile.user_validate_login_page_title()"
 });
 formatter.result({
-  "duration": 38651800,
+  "duration": 18427800,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePage_StepDefinitionFile.user_click_on_login_button()"
+});
+formatter.result({
+  "duration": 67172646300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HomePage_StepDefinitionFile.user_validate_username_on_home_page()"
+});
+formatter.result({
+  "duration": 152023200,
+  "status": "passed"
+});
 });
